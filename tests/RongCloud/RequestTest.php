@@ -1,14 +1,14 @@
 <?php
 /*
  * Desc:
- * User: qmister
+ * User: zhiqiang
  * Date: 2021-10-17 18:41
  */
 
-namespace qmister\easyIm\Tests\RongCloud;
+namespace whereof\easyIm\Tests\RongCloud;
 
-use qmister\easyIm\RongCloud\Request\RongCloudClient;
-use qmister\easyIm\Tests\TestCase;
+use whereof\easyIm\RongCloud\Request\RongCloudClient;
+use whereof\easyIm\Tests\TestCase;
 
 class RequestTest extends TestCase
 {

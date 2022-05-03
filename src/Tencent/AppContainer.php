@@ -1,12 +1,35 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 16:13
+ */
 
-namespace qmister\easyIm\Tencent;
+namespace whereof\easyIm\Tencent;
 
-use qmister\easyIm\Kernel\ServiceContainer;
+use whereof\easyIm\Kernel\ServiceContainer;
 
 /**
  * Class AppContainer.
+ *
+ * @author zhiqiang
+ *
  * @property Request\TencentClient request
+ * @property User\Clinet user
+ * @property User\ProfileClient profile
+ * @property User\FrientGroupClient userFrientGroup
+ * @property User\FriendClient userFriend
+ * @property User\BlackFriendClient userBlackFriend
+ * @property Chat\UserMessageClient chat
+ * @property Chat\RecentClient recent
+ * @property Group\Client group
+ * @property Group\UserClient groupUser
+ * @property Group\NotifyClient GroupNotify
+ * @property Group\MessageClient groupMessage
+ * @property UserPush\UserPushClient push
+ * @property UserPush\AttrNamesClient pushAtt
+ * @property UserPush\TagClient pushTag
+ * @property Other\OperationClient operation
  */
 class AppContainer extends ServiceContainer
 {

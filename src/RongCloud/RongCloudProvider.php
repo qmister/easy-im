@@ -1,10 +1,16 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:33
+ */
 
-namespace qmister\easyIm\RongCloud;
+namespace whereof\easyIm\RongCloud;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use qmister\easyIm\RongCloud\Request\RongCloudClient;
+use whereof\easyIm\RongCloud\Request\RongCloudClient;
+use whereof\easyIm\RongCloud\User\Client;
 
 class RongCloudProvider implements ServiceProviderInterface
 {
@@ -21,6 +27,9 @@ class RongCloudProvider implements ServiceProviderInterface
         // TODO: Implement register() method.
         $app['request'] = function ($app) {
             return new RongCloudClient($app);
+        };
+        $app['user'] = function ($app) {
+            return new Client($app);
         };
     }
 }

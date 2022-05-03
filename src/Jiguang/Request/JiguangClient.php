@@ -1,11 +1,16 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:28
+ */
 
-namespace qmister\easyIm\Jiguang\Request;
+namespace whereof\easyIm\Jiguang\Request;
 
 use CURLFile;
 use GuzzleHttp\Exception\GuzzleException;
-use qmister\easyIm\Kernel\BaseClient;
-use qmister\easyIm\Kernel\Support\Str;
+use whereof\easyIm\Kernel\BaseClient;
+use whereof\easyIm\Kernel\Support\Str;
 
 /**
  * Class JiguangClient
@@ -17,6 +22,8 @@ use qmister\easyIm\Kernel\Support\Str;
  *   'masterSecret' => '',
  * ];
  * Class JiguangClient.
+ *
+ * @author zhiqiang
  */
 class JiguangClient extends BaseClient
 {

@@ -1,10 +1,15 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:34
+ */
 
-namespace qmister\easyIm\RongCloud\Request;
+namespace whereof\easyIm\RongCloud\Request;
 
 use GuzzleHttp\Exception\GuzzleException;
-use qmister\easyIm\Kernel\BaseClient;
-use qmister\easyIm\Kernel\Support\Str;
+use whereof\easyIm\Kernel\BaseClient;
+use whereof\easyIm\Kernel\Support\Str;
 
 /**
  * 融云IM 即时通讯客户端
@@ -16,6 +21,8 @@ use qmister\easyIm\Kernel\Support\Str;
  *  'appSecret' => '',
  * ]
  * Class RongCloudClient
+ *
+ * @author zhiqiang
  */
 class RongCloudClient extends BaseClient
 {

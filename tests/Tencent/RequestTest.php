@@ -1,14 +1,14 @@
 <?php
 /*
  * Desc:
- * User: qmister
+ * User: zhiqiang
  * Date: 2021-10-17 18:04
  */
 
-namespace qmister\easyIm\Tests\Tencent;
+namespace whereof\easyIm\Tests\Tencent;
 
-use qmister\easyIm\Tencent\Request\TencentClient;
-use qmister\easyIm\Tests\TestCase;
+use whereof\easyIm\Tencent\Request\TencentClient;
+use whereof\easyIm\Tests\TestCase;
 
 class RequestTest extends TestCase
 {

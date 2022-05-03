@@ -1,62 +1,28 @@
 <?php
+/*
+ * Desc: 
+ * User: zhiqiang
+ * Date: 2021-11-10 23:31
+ */
 
-namespace iphper\easyIm\Kernel\Clients;
+namespace whereof\easyIm\Kernel\Clients;
 
-use Monolog\Handler\StreamHandler;
-use Monolog\Logger;
-use iphper\easyIm\Kernel\BaseClient;
-
+use whereof\easyIm\Kernel\BaseClient;
+use whereof\Logger\AdapterAbstract;
+use whereof\Logger\Logger;
+use whereof\Logger\LoggerManager;
 
 class LoggerClient extends BaseClient
 {
-
-
-    /**
-     * @var array
-     */
-    protected $lconfig = [
-        'channel' => 'easy-im',
-        'stream'  => null,
-        'level'   => Logger::DEBUG
-    ];
-
+    use Logger;
 
     /**
-     * @return mixed|void
+     * @return AdapterAbstract
      */
-    protected function _initialize()
+    private function adapter()
     {
-        $this->lconfig = array_merge($this->lconfig, $this->config['logger']);
-    }
-
-    /**
-     * @param $channel
-     * @return string
-     */
-    protected function stream($channel)
-    {
-        return $this->lconfig['stream'] ?:
-            './runtime' . DIRECTORY_SEPARATOR . $channel . DIRECTORY_SEPARATOR . date('Ymd') . '.log';
-    }
-
-    /**
-     * @param $channel
-     * @return Logger
-     */
-    public function channel($channel)
-    {
-        $logger = new Logger($channel);
-        $logger->pushHandler(new StreamHandler($this->stream($channel), $this->lconfig['level']));
-        return $logger;
-    }
-
-    /**
-     * @param $name
-     * @param $arguments
-     * @return mixed
-     */
-    public function __call($name, $arguments)
-    {
-        return $this->channel($this->lconfig['channel'])->$name(...$arguments);
+        return LoggerManager::File($this->config['logger'] ?? [
+                'logfile' => './.runtime/logger/' . date('Y-m-d') . '.log',
+            ]);
     }
 }

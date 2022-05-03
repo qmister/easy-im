@@ -1,6 +1,11 @@
 <?php
+/*
+ * Desc: 
+ * User: zhiqiang
+ * Date: 2021-11-10 23:33
+ */
 
-namespace qmister\easyIm\Kernel;
+namespace whereof\easyIm\Kernel;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
@@ -8,18 +13,10 @@ use GuzzleHttp\Exception\GuzzleException;
 trait HttpClient
 {
     /**
-     * @var array
-     */
-    protected $guzzleConfig = [
-        'headers'=>[
-            'User-Agent' => 'easy-im (https://github.com/qmister/easy-im)',
-        ]
-    ];
-
-    /**
      * @param string $url
      * @param array $query
      * @param array $headers
+     *
      * @return string
      * @throws GuzzleException
      *
@@ -38,6 +35,7 @@ trait HttpClient
      * @param string $url
      * @param array $params
      * @param array $headers
+     *
      * @return string
      * @throws GuzzleException
      *
@@ -56,6 +54,7 @@ trait HttpClient
      * @param string $url
      * @param array $params
      * @param array $headers
+     *
      * @return string
      * @throws GuzzleException
      *
@@ -74,6 +73,7 @@ trait HttpClient
      * @param $method
      * @param $url
      * @param $options
+     *
      * @return string
      * @throws GuzzleException
      *
@@ -91,6 +91,6 @@ trait HttpClient
      */
     protected function httpClient()
     {
-        return new Client(array_merge($this->config['http'], $this->guzzleConfig));
+        return new Client($this->config['http'] ?? []);
     }
 }

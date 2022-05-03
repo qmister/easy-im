@@ -1,13 +1,22 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 15:14
+ */
 
-namespace qmister\easyIm\Kernel;
+namespace whereof\easyIm\Kernel;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use qmister\easyIm\Kernel\Clients\CacheClient;
-use qmister\easyIm\Kernel\Clients\LoggerClient;
+use whereof\easyIm\Kernel\Clients\CacheClient;
+use whereof\easyIm\Kernel\Clients\LoggerClient;
 
-
+/**
+ * Class ServiceProvider.
+ *
+ * @author zhiqiang
+ */
 class ServiceProvider implements ServiceProviderInterface
 {
     /**

@@ -2,19 +2,39 @@
 	<strong>非官方即时通信SDK easy-im</strong>
 </p>
 
+<p align="center">
+	<strong>开源地址：</strong> <a target="_blank" href='https://gitee.com/whereof/easy-im'>Gitee</a> | <a target="_blank" href='https://github.com/whereof/easy-im'>Github</a> 
+</p>
+<p align="center">
+	<strong>开发者文档：</strong> <a target="_blank" href='https://github.com/whereof/easy-im/wiki'>wiki</a>
+</p>
+<p align="center">
+    <a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
+        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/v">
+     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
+        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/downloads">
+     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
+        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/v/unstable">
+     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
+        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/license">
+     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
+        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/require/php">
+     </a>
+</p>
+
 > 非官方即时通信SDK，支持腾讯IM，环信IM，极光IM，融云IM，网易云信IM等
 
 
 ## 安装
 
 ~~~~
-composer require qmister/easy-im
+composer require whereof/easy-im
 ~~~~
 
 ## 请求日志开启
 
 ~~~
-\qmister\easyIm\Kernel\BaseClient::$request_log=true;
+\whereof\easyIm\Kernel\BaseClient::$request_log=true;
 ~~~
 
 ## 案例
@@ -27,12 +47,12 @@ $config = [
   'identifier' => 'administrator',
   'secretKey'  => 'nfugb53xtlhyfq2kgiriganruyoagh93it1zwysmh2tmj5tnnmuqhd2og5ofktjt',
 ];
-$im = qmister\easyIm\Factory::Tencent($config);
+$im = whereof\easyIm\Factory::Tencent($config);
 // 自定义请求(账号同步到云端)
 $params = [
     'Identifier' => 'easyim',
     'Nick'       => 'easyim',
-    'FaceUrl'    => 'https://github.com/qmister/easy-im',
+    'FaceUrl'    => 'https://github.com/whereof/easy-im',
 ];
 $im->request->send('im_open_login_svc/account_import', $params);
 ~~~
@@ -47,7 +67,7 @@ $config = [
   'orgName'      => '',
   'appName'      => '',
 ];
-$im = qmister\easyIm\Factory::Huanxin($config);
+$im = whereof\easyIm\Factory::Huanxin($config);
 
 // 自定义请求(账号同步到云端)
 $params = [
@@ -65,7 +85,7 @@ $config = [
   'appKey'       => '',
   'masterSecret' => '',
 ];
-$im = qmister\easyIm\Factory::Jiguang($config);
+$im = whereof\easyIm\Factory::Jiguang($config);
 
 // 自定义请求(账号同步到云端)
 $params = [[
@@ -86,7 +106,7 @@ $config = [
   'appKey'    => '',
   'appSecret' => '',
 ];
-$im = qmister\easyIm\Factory::RongCloud($config);
+$im = whereof\easyIm\Factory::RongCloud($config);
 
 // 自定义请求(账号同步到云端)
 $params=[
@@ -102,7 +122,7 @@ $config = [
   'appKey'    => '',
   'appSecret' => '',
 ];
-$im = qmister\easyIm\Factory::Yunxin($config);
+$im = whereof\easyIm\Factory::Yunxin($config);
 // 自定义请求（账号同步到云端）
 $params = [
     'accid' => 'easyim',
@@ -126,7 +146,12 @@ $im->request->send('nimserver/user/create.action', $params);
 
 ##  加入我们
 
-如果你认可我们的开源项目，有兴趣为 easy-im 的发展做贡献，竭诚欢迎加入我们一起开发完善。无论是 报告错误或 是 Pull Request 开发，那怕是修改一个错别字也是对我们莫大的帮助。
+如果你认可我们的开源项目，有兴趣为 easy-im 的发展做贡献，竭诚欢迎加入我们一起开发完善。无论是[报告错误](https://github.com/whereof/easy-im/issues)或是 Pull Request 开发，那怕是修改一个错别字也是对我们莫大的帮助。
+
+
+
+##  关于我
+https://github.com/whereof/whereof
 
 
 ##  许可协议

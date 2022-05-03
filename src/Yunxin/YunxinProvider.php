@@ -1,10 +1,16 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:38
+ */
 
-namespace qmister\easyIm\Yunxin;
+namespace whereof\easyIm\Yunxin;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use qmister\easyIm\Yunxin\Request\YunxinClient;
+use whereof\easyIm\Yunxin\Request\YunxinClient;
+use whereof\easyIm\Yunxin\User\UserClinet;
 
 class YunxinProvider implements ServiceProviderInterface
 {
@@ -21,6 +27,9 @@ class YunxinProvider implements ServiceProviderInterface
         // TODO: Implement register() method.
         $app['request'] = function ($app) {
             return new YunxinClient($app);
+        };
+        $app['user'] = function ($app) {
+            return new UserClinet($app);
         };
     }
 }

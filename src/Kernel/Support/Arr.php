@@ -1,23 +1,23 @@
 <?php
 /*
  * Desc:
- * User: qmister
+ * User: zhiqiang
  * Date: 2021-10-17 23:00
  */
 
-namespace qmister\easyIm\Kernel\Support;
+namespace whereof\easyIm\Kernel\Support;
 
 /**
  * Class Arr.
  *
- * @author qmister
+ * @author zhiqiang
  */
 class Arr
 {
     /**
-     * Arr::buildItem(['userID_1','userID_2'], 'uid', ['name' => 'qmister']);.
+     * Arr::buildItem(['userID_1','userID_2'], 'uid', ['name' => 'whereof']);.
      *
-     * Arr::buildItem('userId_1', 'uid', ['name' => 'qmister']);
+     * Arr::buildItem('userId_1', 'uid', ['name' => 'whereof']);
      *
      * @param $ids
      * @param string $idKey

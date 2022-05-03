@@ -1,12 +1,21 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:33
+ */
 
-namespace qmister\easyIm\RongCloud;
+namespace whereof\easyIm\RongCloud;
 
-use qmister\easyIm\Kernel\ServiceContainer;
+use whereof\easyIm\Kernel\ServiceContainer;
 
 /**
  * Class AppContainer.
+ *
+ * @author zhiqiang
+ *
  * @property Request\RongCloudClient request
+ * @property User\Client user
  */
 class AppContainer extends ServiceContainer
 {
