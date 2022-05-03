@@ -1,10 +1,10 @@
 <?php
 
-namespace qmister\easyIm\Yunxin;
+namespace whereof\easyIm\Yunxin;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use qmister\easyIm\Yunxin\Request\YunxinClient;
+use whereof\easyIm\Yunxin\Request\YunxinClient;
 
 class YunxinProvider implements ServiceProviderInterface
 {

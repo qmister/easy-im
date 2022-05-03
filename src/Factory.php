@@ -1,6 +1,6 @@
 <?php
 
-namespace qmister\easyIm;
+namespace whereof\easyIm;
 
 use InvalidArgumentException;
 

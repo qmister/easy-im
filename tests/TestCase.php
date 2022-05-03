@@ -1,21 +1,13 @@
 <?php
-/*
- * Desc:
- * User: qmister
- * Date: 2021-10-17 17:43
- */
 
-namespace qmister\easyIm\Tests;
+
+namespace whereof\easyIm\Tests;
 
 use GuzzleHttp\Client;
-use qmister\easyIm\Factory;
-use qmister\Helper\StrHelper;
+use whereof\easyIm\Factory;
+use whereof\Helper\StrHelper;
 
-/**
- * Class TestCase.
- *
- * @author qmister
- */
+
 class TestCase extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -26,7 +18,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
      */
     public function mockApiClient($name, $app)
     {
-        \qmister\easyIm\Kernel\BaseClient::$request_log = true;
+        \whereof\easyIm\Kernel\BaseClient::$request_log = true;
         $client                                         = \Mockery::mock($name, [$app])->makePartial();
         $client->allows()->getHttpClient()->andReturn(\Mockery::mock(Client::class));
 
@@ -48,7 +40,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @return \qmister\easyIm\Huanxin\AppContainer
+     * @return \whereof\easyIm\Huanxin\AppContainer
      */
     public function Huanxin()
     {
@@ -65,7 +57,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @return \qmister\easyIm\Jiguang\AppContainer
+     * @return \whereof\easyIm\Jiguang\AppContainer
      */
     public function Jiguang()
     {
@@ -78,7 +70,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @return \qmister\easyIm\RongCloud\AppContainer
+     * @return \whereof\easyIm\RongCloud\AppContainer
      */
     public function RongCloud()
     {
@@ -91,7 +83,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @return \qmister\easyIm\Tencent\AppContainer
+     * @return \whereof\easyIm\Tencent\AppContainer
      */
     public function Tencent()
     {
@@ -105,7 +97,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @return \qmister\easyIm\Yunxin\AppContainer
+     * @return \whereof\easyIm\Yunxin\AppContainer
      */
     public function Yunxin()
     {

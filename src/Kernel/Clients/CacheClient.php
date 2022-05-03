@@ -1,8 +1,8 @@
 <?php
 
-namespace qmister\easyIm\Kernel\Clients;
+namespace whereof\easyIm\Kernel\Clients;
 
-use qmister\easyIm\Kernel\BaseClient;
+use whereof\easyIm\Kernel\BaseClient;
 
 
 /**

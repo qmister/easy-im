@@ -1,8 +1,8 @@
 <?php
 
-namespace qmister\easyIm\Tencent;
+namespace whereof\easyIm\Tencent;
 
-use qmister\easyIm\Kernel\ServiceContainer;
+use whereof\easyIm\Kernel\ServiceContainer;
 
 /**
  * Class AppContainer.

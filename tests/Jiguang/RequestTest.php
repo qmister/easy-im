@@ -1,14 +1,9 @@
 <?php
-/*
- * Desc:
- * User: qmister
- * Date: 2021-10-17 18:45
- */
 
-namespace qmister\easyIm\Tests\Jiguang;
+namespace whereof\easyIm\Tests\Jiguang;
 
-use qmister\easyIm\Jiguang\Request\JiguangClient;
-use qmister\easyIm\Tests\TestCase;
+use whereof\easyIm\Jiguang\Request\JiguangClient;
+use whereof\easyIm\Tests\TestCase;
 
 class RequestTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace qmister\easyIm\Tencent\Request;
+namespace whereof\easyIm\Tencent\Request;
 
 use GuzzleHttp\Exception\GuzzleException;
-use qmister\easyIm\Kernel\BaseClient;
-use qmister\easyIm\Kernel\Support\Str;
+use whereof\easyIm\Kernel\BaseClient;
+use whereof\easyIm\Kernel\Support\Str;
 
 
 /**
@@ -18,7 +18,7 @@ use qmister\easyIm\Kernel\Support\Str;
  *  'secretKey' => '',
  * ];
  * Class TencentClient
- * @package qmister\easyIm\Tencent\Request
+ * @package whereof\easyIm\Tencent\Request
  */
 class TencentClient extends BaseClient
 {

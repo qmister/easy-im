@@ -1,10 +1,10 @@
 <?php
 
-namespace iphper\easyIm\Kernel\Clients;
+namespace whereof\easyIm\Kernel\Clients;
 
 use Monolog\Handler\StreamHandler;
 use Monolog\Logger;
-use iphper\easyIm\Kernel\BaseClient;
+use whereof\easyIm\Kernel\BaseClient;
 
 
 class LoggerClient extends BaseClient

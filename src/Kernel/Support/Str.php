@@ -1,15 +1,11 @@
 <?php
-/*
- * Desc:
- * User: qmister
- * Date: 2021-10-26 00:01
- */
 
-namespace qmister\easyIm\Kernel\Support;
+
+namespace whereof\easyIm\Kernel\Support;
 
 /**
  * Class Str.
- * @author qmister
+ * @author whereof
  */
 class Str
 {

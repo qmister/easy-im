@@ -1,6 +1,6 @@
 <?php
 
-namespace qmister\easyIm\Tencent;
+namespace whereof\easyIm\Tencent;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;

@@ -1,14 +1,9 @@
 <?php
-/*
- * Desc:
- * User: qmister
- * Date: 2021-10-17 22:15
- */
 
-namespace qmister\easyIm\Tests\Huanxin;
+namespace whereof\easyIm\Tests\Huanxin;
 
-use qmister\easyIm\Huanxin\Request\HuanxinClient;
-use qmister\easyIm\Tests\TestCase;
+use whereof\easyIm\Huanxin\Request\HuanxinClient;
+use whereof\easyIm\Tests\TestCase;
 
 class RequestTest extends TestCase
 {

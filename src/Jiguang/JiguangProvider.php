@@ -1,10 +1,10 @@
 <?php
 
-namespace qmister\easyIm\Jiguang;
+namespace whereof\easyIm\Jiguang;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
-use qmister\easyIm\Jiguang\Request\JiguangClient;
+use whereof\easyIm\Jiguang\Request\JiguangClient;
 
 /**
  * Class JiguangProvider.

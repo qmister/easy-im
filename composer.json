@@ -1,8 +1,8 @@
 {
-  "name": "qmister/easy-im",
+  "name": "whereof/easy-im",
   "license": "MIT",
   "description": "非官方即时通信 IM，支持腾讯IM，环信IM，极光IM，融云IM，网易云信IM等",
-  "homepage": "https://github.com/qmister/easy-im",
+  "homepage": "https://github.com/tp5er/easy-ims",
   "keywords": [
     "easy-im",
     "IM",
@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "qmister\\easyIm\\": "src/"
+      "whereof\\easyIm\\": "src/"
     }
   },
   "require-dev": {
@@ -38,7 +38,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "qmister\\easyIm\\Tests\\": "tests/"
+      "whereof\\easyIm\\Tests\\": "tests/"
     }
   },
   "scripts": {

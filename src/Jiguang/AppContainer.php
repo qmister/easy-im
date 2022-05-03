@@ -1,9 +1,9 @@
 <?php
 
 
-namespace qmister\easyIm\Jiguang;
+namespace whereof\easyIm\Jiguang;
 
-use qmister\easyIm\Kernel\ServiceContainer;
+use whereof\easyIm\Kernel\ServiceContainer;
 
 /**
  * Class AppContainer.

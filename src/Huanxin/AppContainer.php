@@ -1,9 +1,9 @@
 <?php
 
 
-namespace qmister\easyIm\Huanxin;
+namespace whereof\easyIm\Huanxin;
 
-use qmister\easyIm\Kernel\ServiceContainer;
+use whereof\easyIm\Kernel\ServiceContainer;
 
 /**
  * Class AppContainer.
