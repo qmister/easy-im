@@ -1,9 +1,5 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-17 22:15
- */
+
 
 namespace whereof\easyIm\Tests\Huanxin;
 

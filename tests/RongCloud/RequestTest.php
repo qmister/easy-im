@@ -1,9 +1,5 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-17 18:41
- */
+
 
 namespace whereof\easyIm\Tests\RongCloud;
 

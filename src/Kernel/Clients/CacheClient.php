@@ -1,21 +1,13 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-17 15:13
- */
+
 
 namespace whereof\easyIm\Kernel\Clients;
 
+use whereof\easyIm\Kernel\BaseClient;
 use whereof\Cache\CacheManager;
 use whereof\Cache\DriverAbstract;
 use whereof\easyIm\Kernel\BaseClient;
 
-/**
- * Class CacheClient.
- *
- * @author zhiqiang
- */
 class CacheClient extends BaseClient
 {
     /**

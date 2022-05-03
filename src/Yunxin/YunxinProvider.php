@@ -1,15 +1,12 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-17 17:38
- */
 
 namespace whereof\easyIm\Yunxin;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 use whereof\easyIm\Yunxin\Request\YunxinClient;
+
+
 use whereof\easyIm\Yunxin\User\UserClinet;
 
 class YunxinProvider implements ServiceProviderInterface

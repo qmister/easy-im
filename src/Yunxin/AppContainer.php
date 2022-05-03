@@ -1,22 +1,13 @@
 <?php
-/*
- * Desc:
- * User: zhiqiang
- * Date: 2021-10-17 17:37
- */
 
 namespace whereof\easyIm\Yunxin;
 
+
 use whereof\easyIm\Kernel\ServiceContainer;
 
-/**
- * Class AppContainer.
- *
- * @author zhiqiang
- *
- * @property Request\YunxinClient request
- * @property User\UserClinet user
- */
+
+use whereof\easyIm\Kernel\ServiceContainer;
+
 class AppContainer extends ServiceContainer
 {
     /**
