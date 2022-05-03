@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:43
+ */
 
 namespace whereof\easyIm\Tests;
 
@@ -10,6 +15,11 @@ use whereof\easyIm\Kernel\BaseClient;
 use whereof\easyIm\Yunxin\AppContainer;
 use whereof\Helper\StrHelper;
 
+/**
+ * Class TestCase.
+ *
+ * @author zhiqiang
+ */
 class TestCase extends \PHPUnit\Framework\TestCase
 {
     /**
@@ -20,12 +30,9 @@ class TestCase extends \PHPUnit\Framework\TestCase
      */
     public function mockApiClient($name, $app)
     {
-
-
         BaseClient::$request_log = true;
         $client = Mockery::mock($name, [$app])->makePartial();
         $client->allows()->getHttpClient()->andReturn(Mockery::mock(Client::class));
-
 
         return $client;
     }
@@ -86,7 +93,9 @@ class TestCase extends \PHPUnit\Framework\TestCase
         return Factory::Tencent($config);
     }
 
-
+    /**
+     * @return AppContainer
+     */
     public function Yunxin()
     {
         $config = [

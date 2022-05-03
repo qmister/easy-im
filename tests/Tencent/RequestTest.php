@@ -1,8 +1,11 @@
 <?php
-
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 18:04
+ */
 
 namespace whereof\easyIm\Tests\Tencent;
-
 
 use whereof\easyIm\Tencent\Request\TencentClient;
 use whereof\easyIm\Tests\TestCase;

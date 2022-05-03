@@ -1,6 +1,15 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-26 00:01
+ */
 
 namespace whereof\easyIm\Kernel\Support;
+
+/**
+ * Class Str.
+ * @author zhiqiang
  */
 class Str
 {

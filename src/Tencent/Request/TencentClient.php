@@ -22,6 +22,9 @@ use whereof\easyIm\Kernel\Support\Str;
  *  'identifier' => '',
  *  'secretKey' => '',
  * ];
+ * Class TencentClient
+ * @author zhiqiang
+ * @package whereof\easyIm\Tencent\Request
  */
 class TencentClient extends BaseClient
 {

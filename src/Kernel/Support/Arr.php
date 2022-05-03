@@ -1,7 +1,17 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 23:00
+ */
 
 namespace whereof\easyIm\Kernel\Support;
 
+/**
+ * Class Arr.
+ *
+ * @author zhiqiang
+ */
 class Arr
 {
     /**
