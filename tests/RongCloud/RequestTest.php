@@ -1,5 +1,6 @@
 <?php
 
+
 namespace whereof\easyIm\Tests\RongCloud;
 
 use whereof\easyIm\RongCloud\Request\RongCloudClient;

@@ -6,6 +6,9 @@ use Pimple\Container;
 use Pimple\ServiceProviderInterface;
 use whereof\easyIm\Yunxin\Request\YunxinClient;
 
+
+use whereof\easyIm\Yunxin\User\UserClinet;
+
 class YunxinProvider implements ServiceProviderInterface
 {
     /**
@@ -21,6 +24,9 @@ class YunxinProvider implements ServiceProviderInterface
         // TODO: Implement register() method.
         $app['request'] = function ($app) {
             return new YunxinClient($app);
+        };
+        $app['user'] = function ($app) {
+            return new UserClinet($app);
         };
     }
 }

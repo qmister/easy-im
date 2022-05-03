@@ -2,13 +2,12 @@
 
 namespace whereof\easyIm\Kernel\Support;
 
-
 class Arr
 {
     /**
-     * Arr::buildItem(['userID_1','userID_2'], 'uid', ['name' => 'qmister']);.
+     * Arr::buildItem(['userID_1','userID_2'], 'uid', ['name' => 'whereof']);.
      *
-     * Arr::buildItem('userId_1', 'uid', ['name' => 'qmister']);
+     * Arr::buildItem('userId_1', 'uid', ['name' => 'whereof']);
      *
      * @param $ids
      * @param string $idKey

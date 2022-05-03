@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:28
+ */
 
 namespace whereof\easyIm\Jiguang\Request;
 
@@ -17,6 +22,8 @@ use whereof\easyIm\Kernel\Support\Str;
  *   'masterSecret' => '',
  * ];
  * Class JiguangClient.
+ *
+ * @author zhiqiang
  */
 class JiguangClient extends BaseClient
 {

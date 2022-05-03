@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:11
+ */
 
 namespace whereof\easyIm\Tencent\Request;
 
@@ -17,8 +22,6 @@ use whereof\easyIm\Kernel\Support\Str;
  *  'identifier' => '',
  *  'secretKey' => '',
  * ];
- * Class TencentClient
- * @package whereof\easyIm\Tencent\Request
  */
 class TencentClient extends BaseClient
 {

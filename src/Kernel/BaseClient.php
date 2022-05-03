@@ -1,11 +1,21 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 15:08
+ */
 
-namespace qmister\easyIm\Kernel;
+namespace whereof\easyIm\Kernel;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
-use qmister\Logger\Logger;
+use whereof\Logger\Logger;
 
+/**
+ * Class BaseClient.
+ *
+ * @author zhiqiang
+ */
 class BaseClient
 {
     use HttpClient;

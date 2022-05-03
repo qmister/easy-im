@@ -1,5 +1,6 @@
 <?php
 
+
 namespace whereof\easyIm\Tests\Jiguang;
 
 use whereof\easyIm\Jiguang\Request\JiguangClient;

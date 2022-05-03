@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:34
+ */
 
 namespace whereof\easyIm\RongCloud\Request;
 
@@ -16,6 +21,8 @@ use whereof\easyIm\Kernel\Support\Str;
  *  'appSecret' => '',
  * ]
  * Class RongCloudClient
+ *
+ * @author zhiqiang
  */
 class RongCloudClient extends BaseClient
 {

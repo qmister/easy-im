@@ -1,5 +1,6 @@
 <?php
 
+
 namespace whereof\easyIm\Tests\Huanxin;
 
 use whereof\easyIm\Huanxin\Request\HuanxinClient;

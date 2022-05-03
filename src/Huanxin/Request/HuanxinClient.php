@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:19
+ */
 
 namespace whereof\easyIm\Huanxin\Request;
 
@@ -18,6 +23,8 @@ use whereof\easyIm\Kernel\Support\Str;
  *  'appName' => '',
  * ];
  * Class HuanxinClient.
+ *
+ * @author zhiqiang
  */
 class HuanxinClient extends BaseClient
 {

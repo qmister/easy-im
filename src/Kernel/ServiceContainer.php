@@ -1,11 +1,17 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 15:11
+ */
 
-namespace qmister\easyIm\Kernel;
+namespace whereof\easyIm\Kernel;
 
 use Pimple\Container;
 
 /**
  * Class ServiceContainer.
+ * @author zhiqiang
  * @property Clients\CacheClient cache
  * @property Clients\LoggerClient logger
  */

@@ -3,6 +3,7 @@
 
 namespace whereof\easyIm\Tests\Yunxin;
 
+
 use whereof\easyIm\Tests\TestCase;
 use whereof\easyIm\Yunxin\Request\YunxinClient;
 

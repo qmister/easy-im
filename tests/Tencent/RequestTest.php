@@ -3,6 +3,7 @@
 
 namespace whereof\easyIm\Tests\Tencent;
 
+
 use whereof\easyIm\Tencent\Request\TencentClient;
 use whereof\easyIm\Tests\TestCase;
 

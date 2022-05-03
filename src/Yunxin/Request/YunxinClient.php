@@ -1,10 +1,15 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 17:39
+ */
 
-namespace qmister\easyIm\Yunxin\Request;
+namespace whereof\easyIm\Yunxin\Request;
 
 use GuzzleHttp\Exception\GuzzleException;
-use qmister\easyIm\Kernel\BaseClient;
-use qmister\easyIm\Kernel\Support\Str;
+use whereof\easyIm\Kernel\BaseClient;
+use whereof\easyIm\Kernel\Support\Str;
 
 /**
  * 网易云信 客户端
@@ -16,6 +21,7 @@ use qmister\easyIm\Kernel\Support\Str;
  *  'appSecret' => '',
  * ]
  * Class YunxinClient
+ * @author zhiqiang
  */
 class YunxinClient extends BaseClient
 {

@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: zhiqiang
+ * Date: 2021-10-17 15:04
+ */
 
 namespace whereof\easyIm;
 
@@ -6,6 +11,8 @@ use InvalidArgumentException;
 
 /**
  * Class Factory.
+ *
+ * @author zhiqiang
  *
  * @method static Tencent\AppContainer Tencent($config)
  * @method static Jiguang\AppContainer Jiguang($config)
