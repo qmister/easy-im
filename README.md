@@ -1,26 +1,3 @@
-<p align="center">
-	<strong>非官方即时通信SDK easy-im</strong>
-</p>
-
-<p align="center">
-	<strong>开源地址：</strong> <a target="_blank" href='https://gitee.com/whereof/easy-im'>Gitee</a> | <a target="_blank" href='https://github.com/whereof/easy-im'>Github</a> 
-</p>
-<p align="center">
-	<strong>开发者文档：</strong> <a target="_blank" href='https://github.com/whereof/easy-im/wiki'>wiki</a>
-</p>
-<p align="center">
-    <a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
-        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/v">
-     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
-        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/downloads">
-     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
-        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/v/unstable">
-     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
-        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/license">
-     </a><a href="https://packagist.org/packages/whereof/easy-im" target="_blank">
-        <img class="badge" src="http://poser.pugx.org/whereof/easy-im/require/php">
-     </a>
-</p>
 
 > 非官方即时通信SDK，支持腾讯IM，环信IM，极光IM，融云IM，网易云信IM等
 
@@ -146,13 +123,5 @@ $im->request->send('nimserver/user/create.action', $params);
 
 ##  加入我们
 
-如果你认可我们的开源项目，有兴趣为 easy-im 的发展做贡献，竭诚欢迎加入我们一起开发完善。无论是[报告错误](https://github.com/whereof/easy-im/issues)或是 Pull Request 开发，那怕是修改一个错别字也是对我们莫大的帮助。
+如果你认可我们的开源项目，有兴趣为 easy-im 的发展做贡献，竭诚欢迎加入我们一起开发完善。无论是[报告错误](https://github.com/tp5er/easy-ims/issues)或是 Pull Request 开发，那怕是修改一个错别字也是对我们莫大的帮助。
 
-
-
-##  关于我
-https://github.com/whereof/whereof
-
-
-##  许可协议
-[MIT](https://opensource.org/licenses/MIT)
