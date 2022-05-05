@@ -10,7 +10,7 @@ namespace whereof\easyIm\Kernel\Support;
 /**
  * Class Arr.
  *
- * @author whereof
+ * @author qmister
  */
 class Arr
 {

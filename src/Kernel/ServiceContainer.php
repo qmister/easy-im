@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: qmister
+ * Date: 2021-10-17 15:11
+ */
 
 namespace whereof\easyIm\Kernel;
 
@@ -6,6 +11,7 @@ use Pimple\Container;
 
 /**
  * Class ServiceContainer.
+ * @author qmister
  * @property Clients\CacheClient cache
  * @property Clients\LoggerClient logger
  */

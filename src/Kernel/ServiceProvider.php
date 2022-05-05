@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: qmister
+ * Date: 2021-10-17 15:14
+ */
 
 namespace whereof\easyIm\Kernel;
 
@@ -7,7 +12,11 @@ use Pimple\ServiceProviderInterface;
 use whereof\easyIm\Kernel\Clients\CacheClient;
 use whereof\easyIm\Kernel\Clients\LoggerClient;
 
-
+/**
+ * Class ServiceProvider.
+ *
+ * @author qmister
+ */
 class ServiceProvider implements ServiceProviderInterface
 {
     /**

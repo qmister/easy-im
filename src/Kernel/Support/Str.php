@@ -9,7 +9,7 @@ namespace whereof\easyIm\Kernel\Support;
 
 /**
  * Class Str.
- * @author whereof
+ * @author qmister
  */
 class Str
 {

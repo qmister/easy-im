@@ -1,4 +1,9 @@
 <?php
+/*
+ * Desc:
+ * User: qmister
+ * Date: 2021-10-17 17:39
+ */
 
 namespace whereof\easyIm\Yunxin\Request;
 
@@ -16,6 +21,7 @@ use whereof\easyIm\Kernel\Support\Str;
  *  'appSecret' => '',
  * ]
  * Class YunxinClient
+ * @author qmister
  */
 class YunxinClient extends BaseClient
 {
